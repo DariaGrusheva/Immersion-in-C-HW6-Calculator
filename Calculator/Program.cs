@@ -35,7 +35,7 @@
                 }
                 string? userEntered = Console.ReadLine();
 
-                if (userEntered == "q") break;
+                if (userEntered == "q" || userEntered == "") break;
                 
                     string? newUserEntered = userEntered.Remove(0, 1);
                 
